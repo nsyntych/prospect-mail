@@ -14,15 +14,17 @@ class TrayController {
         this.tray = new Tray(this.createTrayIcon(''))
 
         const context = Menu.buildFromTemplate([
-            {label: 'Show Me', click: () => this.showHide()},
+            {label: 'Show/Hide', click: () => this.showHide()},
             {label: 'Separator', type: 'separator'},
-            {label: 'Window Frame', type: 'checkbox', checked: settings.get('showWindowFrame', true), click: () => this.toggleWindowFrame()},
-            {label: 'Quit', click: () => this.cleanupAndQuit()}
+            // {label: 'Window Frame', type: 'checkbox', checked: settings.get('showWindowFrame', true), click: () => this.toggleWindowFrame()},
+            { label: 'Quit', role: 'quit' },
         ])
 
         this.tray.setContextMenu(context)
 
-        this.tray.on('click', () => this.fireClickEvent())
+        // Setting context Menu 
+        this.tray.on('right-click', (event) => tray.popUpContextMenu(context));
+        this.tray.on('click', (event) => { this.showHide() });
 
         ipcMain.on('updateUnread', (event, value) => {
             this.tray.setImage(this.createTrayIcon(value))
