@@ -2,7 +2,7 @@
 
 <img src="build/icons/128x128.png" alt="logo" height="80" align="right" />
 
-[![dependencies Status](https://david-dm.org/julian-alarcon/prospect-mail/status.svg)](https://david-dm.org/julian-alarcon/prospect-mail) [![devDependencies Status](https://david-dm.org/julian-alarcon/prospect-mail/dev-status.svg)](https://david-dm.org/julian-alarcon/prospect-mail?type=dev)
+[![dependencies Status](https://david-dm.org/nsyntych/prospect-mail/status.svg)](https://david-dm.org/nsyntych/prospect-mail) [![devDependencies Status](https://david-dm.org/nsyntych/prospect-mail/dev-status.svg)](https://david-dm.org/nsyntych/prospect-mail?type=dev)
 
 The Outlook desktop client for the [new Outlook Interface](https://www.microsoft.com/en-us/microsoft-365/blog/2018/06/13/power-and-simplicity-updates-to-the-office-365-user-experience/) from MS Office 365.
 
@@ -34,7 +34,7 @@ The main software architecture components and their versions are this:
 Clone the repository and run in development mode. (You need to have [git](https://git-scm.com/ , node and yarn) installed)
 
 ```bash
-git clone https://github.com/julian-alarcon/prospect-mail.git
+git clone https://github.com/nsyntych/prospect-mail.git
 cd prospect-mail
 yarn
 yarn start
@@ -62,7 +62,7 @@ yarn run dist:macOS
 
 ## Download
 
-The released application can be downloaded [here](https://github.com/julian-alarcon/prospect-mail/releases).
+The released application can be downloaded [here](https://github.com/nsyntych/prospect-mail/releases).
 
 ## Installation
 
@@ -81,4 +81,4 @@ npm publish
 
 ## License
 
-[MIT](https://github.com/julian-alarcon/prospect-mail/blob/master/LICENSE) by [Julian Alarcon](https://desentropia.com) based on work on [electron-outlook](https://github.com/eNkru/electron-outlook) by [Howard J](https://enkru.github.io/)
+[MIT](https://github.com/nsyntych/prospect-mail/blob/master/LICENSE) by [Julian Alarcon](https://desentropia.com) based on work on [electron-outlook](https://github.com/eNkru/electron-outlook) by [Howard J](https://enkru.github.io/)
