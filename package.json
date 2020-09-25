@@ -1,10 +1,10 @@
 {
   "name": "prospect-mail",
   "productName": "Prospect Mail",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "src/main.js",
   "description": "Prospect Mail is an Outlook Electron desktop application for the new design",
-  "homepage": "https://github.com/julian-alarcon/prospect-mail",
+  "homepage": "https://github.com/nsyntych/prospect-mail",
   "keywords": [
     "Electron",
     "Outlook",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://github.com/julian-alarcon/prospect-mail"
+    "url": "git+ssh://github.com/nsyntych/prospect-mail"
   },
   "author": {
     "name": "Julian Alarcon ",
@@ -23,8 +23,8 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "^12.16.1",
-    "yarn": "^1.22.0"
+    "node": "^14.12.0",
+    "yarn": "^1.22.5"
   },
   "scripts": {
     "start": "electron src/main.js",
@@ -39,11 +39,11 @@
     "release": "electron-builder"
   },
   "dependencies": {
-    "electron-settings": "^3.2.0"
+    "electron-settings": "^4.0.2"
   },
   "devDependencies": {
-    "electron": "^9.3.0",
-    "electron-builder": "^22.5.1"
+    "electron": "^10.1.2",
+    "electron-builder": "^22.8.1"
   },
   "build": {
     "appId": "io.github.prospect.${name}",
