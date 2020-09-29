@@ -1,7 +1,7 @@
 {
   "name": "prospect-mail",
   "productName": "Prospect Mail",
-  "version": "0.3.0",
+  "version": "0.3.0-nsyntych",
   "main": "src/main.js",
   "description": "Prospect Mail is an Outlook Electron desktop application for the new design",
   "homepage": "https://github.com/nsyntych/prospect-mail",
